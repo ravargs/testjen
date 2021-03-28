@@ -6,6 +6,8 @@ metadata:
   annotations:
     github.com/project-slug: ravargs/testjen
     backstage.io/techdocs-ref: url:https://github.com/ravargs/testjen
+    jenkins.io/github-folder: 'job/test'
+    backstage.io/kubernetes-id : test
 spec:
   type: service
   lifecycle: experimental
