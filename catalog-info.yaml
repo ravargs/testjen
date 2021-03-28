@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testjen"
+  description: "testjen"
+  annotations:
+    github.com/project-slug: ravargs/testjen
+    backstage.io/techdocs-ref: url:https://github.com/ravargs/testjen
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "ravargs"
